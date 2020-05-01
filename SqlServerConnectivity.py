@@ -1,3 +1,4 @@
+#Connectivity with sql server
 import pyodbc
 
 def read(conn):
