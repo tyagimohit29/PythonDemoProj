@@ -2,7 +2,7 @@
 import pyodbc
 
 def read(conn):
-    print("read")
+    print("READ DATA")
     cursor = conn.cursor()
     cursor.execute("select * from projects where project_num=3335")
 
